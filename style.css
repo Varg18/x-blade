@@ -1,0 +1,45 @@
+:root {
+	--color-grey: #ACACAC;
+	--color-white: #FFFFFF;
+	--color-main: #F52D2D;
+	--color-black: #181818;
+	--color-text: #393939;
+	--color-green: #6A7870;
+	--color-cream: #E8DFC8;
+	--color-btn-hover: #D61F1F;
+	--color-btn-active: #B10E0E;
+	--color-violet: #7014E8;
+}
+
+body {
+	font-family: 'Ubuntu';
+	font-style: normal;
+}
+
+.container {
+	width: 100%;
+	max-width: 728px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+	.container {
+		max-width: 1220px;
+		padding: 0 20px;
+	}
+}
+
+.title {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 48px;
+	color: var(--color-black);
+}
+
+@media screen and (min-width: 768px) {
+	.title {
+		font-size: 64px;
+		line-height: 72px;
+	}
+}

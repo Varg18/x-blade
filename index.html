@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="mobile-menu">
+      <div class="mobile-menu__header">
+        <p class="mobile-menu__title">Меню</p>
+        <button class="mobile-menu__close">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 6L6 18"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M6 6L18 18"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+      <ul class="mobile-menu__list">
+        <li class="mobile-menu__list-item">
+          <a href="#" class="mobile-menu__list-link">Обзор</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#" class="mobile-menu__list-link">Преимущества</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#" class="mobile-menu__list-link">Технологии</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#" class="mobile-menu__list-link">Отзывы</a>
+        </li>
+        <li class="mobile-menu__list-item">
+          <a href="#" class="mobile-menu__list-link">Характеристика</a>
+        </li>
+      </ul>
+			<a href="tel: 79199149511" class="header__contact-link">
+				<img
+					src="./assets/src/phone.svg"
+					alt="phone"
+					class="header__contact-svg"
+				/>
+				<span class="header__contact-number">+7 (919) 914-95-11</span>
+			</a>
+    </div>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <a href="/" class="header__logo-link">
+              <img
+                src="./assets/src/logo.svg"
+                alt="logo"
+                class="header__logo-svg"
+              />
+            </a>
+          </div>
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__link">Обзор</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Преимущества</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Технологии</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Отзывы</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Характеристика</a>
+            </li>
+          </ul>
+          <div class="header__contact">
+            <a href="tel: 79199149511" class="header__contact-link">
+              <img
+                src="./assets/src/phone.svg"
+                alt="phone"
+                class="header__contact-svg"
+              />
+              <span class="header__contact-number">+7 (919) 914-95-11</span>
+            </a>
+            <button class="header__burger">
+              <img
+                src="./assets/src/menu.svg"
+                alt="button"
+                class="header__burger-btn"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <div class="container">
+        <h1 class="main__title">
+          X-Blade
+          <br />
+          Litespeed
+        </h1>
+        <button class="button loading">
+          Заказать
+          <img
+            src="./assets/src/loader.svg"
+            alt="loader"
+            class="button__loader"
+          />
+        </button>
+        <img src="./assets/src/bike_1.png" alt="bike" class="main__img" />
+      </div>
+    </section>
+    <section class="video">
+      <div class="container">
+        <div class="video__wrapper">
+          <div class="video__content">
+            <p class="video__title">X-Blade Litespeed</p>
+            <p class="video__desc">
+              Новая модель, новый стиль, и полное переосмысление
+              электровелосипеда
+            </p>
+            <button class="button">
+              Заказать
+              <img
+                src="./assets/src/loader.svg"
+                alt="loader"
+                class="button__loader"
+              />
+            </button>
+          </div>
+          <div class="video__player">
+            <img src="./assets/src/video.png" alt="video" class="video__img" />
+            <button class="video__button-play">
+              <img
+                src="./assets/src/play.svg"
+                alt="play"
+                class="video__button-play-svg"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <h2 class="title">Преимущества</h2>
+        <div class="advantages__wrapper">
+          <div class="advantages__card">
+            <img
+              src="./assets/src/picture.png"
+              alt="picture"
+              class="advantages__img"
+            />
+            <p class="advantages__title">Съемная батарея</p>
+            <p class="advantages__desc">
+              Место под небольшое описание преимущества, в несколько строк,
+              не более трёх
+            </p>
+          </div>
+          <div class="advantages__card">
+            <img
+              src="./assets/src/picture-1.png"
+              alt="picture"
+              class="advantages__img"
+            />
+            <p class="advantages__title">Дисковые тормоза</p>
+            <p class="advantages__desc">
+              Место под небольшое описание преимущества, в несколько строк,
+              не более трёх
+            </p>
+          </div>
+          <div class="advantages__card">
+            <img
+              src="./assets/src/picture-2.png"
+              alt="picture"
+              class="advantages__img"
+            />
+            <p class="advantages__title">16 скоростей</p>
+            <p class="advantages__desc">
+              Место под небольшое описание преимущества, в несколько строк,
+              не более трёх
+            </p>
+          </div>
+          <div class="advantages__card">
+            <img
+              src="./assets/src/picture-3.png"
+              alt="picture"
+              class="advantages__img"
+            />
+            <p class="advantages__title">Неоновая подстветка</p>
+            <p class="advantages__desc">
+              Место под небольшое описание преимущества, в несколько строк,
+              не более трёх
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="technology">
+      <div class="container">
+        <h2 class="title">Технологии</h2>
+        <div class="technology__wrapper">
+          <div class="technology__items">
+            <p class="technology__item">
+              Когда ваш телефон подключается к велосипеду, он становится ещё
+              умнее. Связанный с каждым вашим движением и в поисках того, что
+              впереди, теперь у вас есть шанс побродить и удивиться.
+            </p>
+            <p class="technology__item">
+              Благодаря тому, что велосипед постоянно следит за дорогой,
+              он будет держать вас в курсе событий. Ваша следующая поездка
+              больше не зависит от случайных событий.
+            </p>
+          </div>
+          <div class="technology__picture">
+            <img
+              src="./assets/src/technology.png"
+              alt="technology"
+              class="technology__img"
+            />
+            <div class="technology__picture-text">
+              <p class="technology__picture-title">Приложение</p>
+              <p class="technology__picture-desc">
+                Благодаря тому, что велосипед постоянно следит за дорогой, он
+                будет держать вас в курсе событий.
+              </p>
+            </div>
+            <div class="technology__store">
+              <a href="#" class="technology__store-item">
+                <img
+                  src="./assets/src/app-store.svg"
+                  alt="app"
+                  class="technology__store-img"
+                />
+              </a>
+              <a href="#" class="technology__store-item">
+                <img
+                  src="./assets/src/google-play.svg"
+                  alt="google"
+                  class="technology__store-img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h2 class="title">Отзывы</h2>
+        <div class="reviews__wrapper">
+          <div class="reviews__slider">
+            <div class="reviews__slider-item">
+              <img
+                src="./assets/src/quotes.svg"
+                alt="quotes"
+                class="reviews__img"
+              />
+              <p class="reviews__text">
+                Я очень доволен велосипедом. Это не только легкий велосипед,
+                на котором можно ездить даже после разрядки аккумулятора,
+                но и быстрый велосипед благодаря своей геометрии и положению
+                водителя. Для шоссейного байкера, который обычно едет
+                со скоростью более 30 км/ч, и по сравнению с 25 км/ч это очень
+                круто!
+              </p>
+            </div>
+          </div>
+          <div class="reviews__nav">
+            <div class="reviews__nav-item active">
+              <img
+                src="./assets/src/avatar.png"
+                alt="user"
+                class="reviews__user"
+              />
+              <div class="reviews__user-content">
+                <p class="reviews__user-name">Денис Меньшов</p>
+                <p class="reviews__user-job">Велогонщик</p>
+              </div>
+            </div>
+            <div class="reviews__nav-item">
+              <img
+                src="./assets/src/avatar-1.png"
+                alt="user"
+                class="reviews__user"
+              />
+              <div class="reviews__user-content">
+                <p class="reviews__user-name">Денис Меньшов</p>
+                <p class="reviews__user-job">Велогонщик</p>
+              </div>
+            </div>
+            <div class="reviews__nav-item">
+              <img
+                src="./assets/src/avatar-2.png"
+                alt="user"
+                class="reviews__user"
+              />
+              <div class="reviews__user-content">
+                <p class="reviews__user-name">Денис Меньшов</p>
+                <p class="reviews__user-job">Велогонщик</p>
+              </div>
+            </div>
+            <div class="reviews__nav-item">
+              <img
+                src="./assets/src/avatar-3.png"
+                alt="user"
+                class="reviews__user"
+              />
+              <div class="reviews__user-content">
+                <p class="reviews__user-name">Денис Меньшов</p>
+                <p class="reviews__user-job">Велогонщик</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="characteristics">
+      <div class="container">
+        <h2 class="title">Характеристики</h2>
+        <div class="characteristics__wrapper">
+          <button class="characteristics__item active">
+            <div class="characteristics__header">
+              <div class="characteristics__header-info">
+                <p class="characteristics__header-title">Основные</p>
+                <p class="characteristics__header-count">8</p>
+              </div>
+              <div class="characteristics__header-arrow">
+                <img
+                  src="./assets/src/arrow.svg"
+                  alt="arrow"
+                  class="characteristics__header-arrow-svg"
+                />
+              </div>
+            </div>
+            <ul class="characteristics__list">
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Цена</p>
+                <p class="characteristics__list-desc">от 160 000₽</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Цвет</p>
+                <p class="characteristics__list-desc">Черный, Хаки, Песочный</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Высота</p>
+                <p class="characteristics__list-desc">
+                  Оптимизирован для велосипедистов ростом от 170 до 195 см
+                </p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Вес</p>
+                <p class="characteristics__list-desc">
+                  Общий вес 18,9 кг, включая аккумулятор
+                </p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Батарея</p>
+                <p class="characteristics__list-desc">Автономность до 70 км</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Скорость</p>
+                <p class="characteristics__list-desc">25 км/ч</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">В комплекте</p>
+                <p class="characteristics__list-desc">
+                  Шестигранные ключи на 3 мм, 4 мм, 5 мм и 6 мм, гаечный ключ
+                  для ремня (Spa 1), передние и задние фонари STVZO,
+                  4x рефлектора для спиц, задний рефлектор, крепление для
+                  телефона, звонок
+                </p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Гарантия</p>
+                <p class="characteristics__list-desc">2 года</p>
+              </li>
+            </ul>
+          </button>
+          <button class="characteristics__item">
+            <div class="characteristics__header">
+              <div class="characteristics__header-info">
+                <p class="characteristics__header-title">Велосипед</p>
+                <p class="characteristics__header-count">4</p>
+              </div>
+              <div class="characteristics__header-arrow">
+                <img
+                  src="./assets/src/arrow.svg"
+                  alt="arrow"
+                  class="characteristics__header-arrow-svg"
+                />
+              </div>
+            </div>
+            <ul class="characteristics__list">
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Цена</p>
+                <p class="characteristics__list-desc">от 160 000₽</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Цвет</p>
+                <p class="characteristics__list-desc">Черный, Хаки, Песочный</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Высота</p>
+                <p class="characteristics__list-desc">
+                  Оптимизирован для велосипедистов ростом от 170 до 195 см
+                </p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Вес</p>
+                <p class="characteristics__list-desc">
+                  Общий вес 18,9 кг, включая аккумулятор
+                </p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Батарея</p>
+                <p class="characteristics__list-desc">Автономность до 70 км</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Скорость</p>
+                <p class="characteristics__list-desc">25 км/ч</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">В комплекте</p>
+                <p class="characteristics__list-desc">
+                  Шестигранные ключи на 3 мм, 4 мм, 5 мм и 6 мм, гаечный ключ
+                  для ремня (Spa 1), передние и задние фонари STVZO,
+                  4x рефлектора для спиц, задний рефлектор, крепление для
+                  телефона, звонок
+                </p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Гарантия</p>
+                <p class="characteristics__list-desc">2 года</p>
+              </li>
+            </ul>
+          </button>
+          <button class="characteristics__item">
+            <div class="characteristics__header">
+              <div class="characteristics__header-info">
+                <p class="characteristics__header-title">Электроника</p>
+                <p class="characteristics__header-count">6</p>
+              </div>
+              <div class="characteristics__header-arrow">
+                <img
+                  src="./assets/src/arrow.svg"
+                  alt="arrow"
+                  class="characteristics__header-arrow-svg"
+                />
+              </div>
+            </div>
+            <ul class="characteristics__list">
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Цена</p>
+                <p class="characteristics__list-desc">от 160 000₽</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Цвет</p>
+                <p class="characteristics__list-desc">Черный, Хаки, Песочный</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Высота</p>
+                <p class="characteristics__list-desc">
+                  Оптимизирован для велосипедистов ростом от 170 до 195 см
+                </p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Вес</p>
+                <p class="characteristics__list-desc">
+                  Общий вес 18,9 кг, включая аккумулятор
+                </p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Батарея</p>
+                <p class="characteristics__list-desc">Автономность до 70 км</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Скорость</p>
+                <p class="characteristics__list-desc">25 км/ч</p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">В комплекте</p>
+                <p class="characteristics__list-desc">
+                  Шестигранные ключи на 3 мм, 4 мм, 5 мм и 6 мм, гаечный ключ
+                  для ремня (Spa 1), передние и задние фонари STVZO,
+                  4x рефлектора для спиц, задний рефлектор, крепление для
+                  телефона, звонок
+                </p>
+              </li>
+              <li class="characteristics__list-item">
+                <p class="characteristics__list-title">Гарантия</p>
+                <p class="characteristics__list-desc">2 года</p>
+              </li>
+            </ul>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="selection">
+      <div class="container">
+        <div class="selection__wrapper">
+          <h3 class="selection__title">X-Blade Litespeed</h3>
+          <div class="selection__header">
+            <div class="selection__radio">
+              <button
+                class="selection__radio-item selection__radio-item--black active"
+              >
+                <svg
+                  class="selection__radio-item-svg"
+                  width="15"
+                  height="11"
+                  viewBox="0 0 15 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 1L5 10L1 6"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button class="selection__radio-item selection__radio-item--sand">
+                <svg
+                  class="selection__radio-item-svg"
+                  width="15"
+                  height="11"
+                  viewBox="0 0 15 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 1L5 10L1 6"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button
+                class="selection__radio-item selection__radio-item--khaki"
+              >
+                <svg
+                  class="selection__radio-item-svg"
+                  width="15"
+                  height="11"
+                  viewBox="0 0 15 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 1L5 10L1 6"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <button class="button">
+              Заказать
+              <img
+                src="./assets/src/loader.svg"
+                alt="loader"
+                class="button__loader"
+              />
+            </button>
+          </div>
+          <div class="selection__content">
+            <img
+              src="./assets/src/black.png"
+              alt="bike"
+              class="selection__bike active"
+            />
+            <img
+              src="./assets/src/sand.png"
+              alt="bike"
+              class="selection__bike"
+            />
+            <img
+              src="./assets/src/khaki.png"
+              alt="bike"
+              class="selection__bike"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="/main.js"></script>
+  </body>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <a href="#" class="footer__secure">Политика конфиденциальности</a>
+        <p class="footer__right">© X-Blade Litespeed, 2022</p>
+      </div>
+    </div>
+  </footer>
+</html>
